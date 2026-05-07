@@ -1,7 +1,7 @@
 from openai import OpenAI
 import math
 client = OpenAI(
-    api_key="your apikey", 
+    api_key="sk-088021142fda42b9bf965d3fdafd65f9", 
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 
