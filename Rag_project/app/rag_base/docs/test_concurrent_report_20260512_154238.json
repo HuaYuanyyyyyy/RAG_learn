@@ -1,0 +1,296 @@
+{
+  "config": {
+    "base_url": "https://onetoken.one",
+    "path": "/v1/chat/completions",
+    "model": "claude-sonnet-4-6",
+    "question": "你是什么模型？能干啥",
+    "concurrency": 5,
+    "total": 10
+  },
+  "warmup": {
+    "idx": 0,
+    "started_at": "2026-05-12T15:41:22",
+    "elapsed_sec": 15.827,
+    "status_code": 200,
+    "ok": true,
+    "content": "# 我是 Claude Sonnet 4.6\n\n由 Anthropic 公司开发的 AI 助手。\n\n## 我能做什么？\n\n### 📝 写作与创作\n- 写文章、报告、故事、诗歌\n- 文案撰写、润色修改\n- 翻译（中英文等多语言）\n\n### 💻 编程开发\n- 编写、调试、解释代码\n- 支持 Python、JavaScript、Java、C++ 等主流语言\n- 技术方案设计\n\n### 🧠 分析与研究\n- 数据分析与解读\n- 文献摘要、信息整理\n- 逻辑推理与问题拆解\n\n### 💬 对话与咨询\n- 回答各类知识问题\n- 学习辅导（数学、科学、历史等）\n- 头脑风暴、创意激发\n\n### 📊 办公效率\n- 总结长文档\n- 制作计划、清单\n- 邮件/PPT 内容撰写\n\n---\n\n**有什么具体需求，直接说就行！** 😊",
+    "usage": {
+      "prompt_tokens": 116,
+      "completion_tokens": 322,
+      "total_tokens": 438,
+      "usage_semantic": "openai",
+      "usage_source": "anthropic",
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 0,
+        "audio_tokens": 0,
+        "image_tokens": 0
+      },
+      "completion_tokens_details": {
+        "text_tokens": 0,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "input_tokens": 116,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 0,
+      "claude_cache_creation_1_h_tokens": 0
+    },
+    "error": null
+  },
+  "wall_sec": 60.433,
+  "summary": {
+    "total": 10,
+    "ok": 6,
+    "fail": 4,
+    "min_sec": 15.827,
+    "max_sec": 60.405,
+    "avg_sec": 30.362,
+    "p50_sec": 27.521,
+    "p90_sec": 38.454,
+    "p95_sec": 60.405,
+    "p99_sec": 60.405
+  },
+  "results": [
+    {
+      "idx": 1,
+      "started_at": "2026-05-12T15:41:22",
+      "elapsed_sec": 15.827,
+      "status_code": 200,
+      "ok": true,
+      "content": "# 我是 Claude Sonnet 4.6\n\n由 Anthropic 公司开发的 AI 助手。\n\n## 我能做什么？\n\n### 📝 写作与创作\n- 写文章、报告、故事、诗歌\n- 文案撰写、润色修改\n- 翻译（中英文等多语言）\n\n### 💻 编程开发\n- 编写、调试、解释代码\n- 支持 Python、JavaScript、Java、C++ 等主流语言\n- 技术方案设计\n\n### 🧠 分析与研究\n- 数据分析与解读\n- 文献摘要、信息整理\n- 逻辑推理与问题拆解\n\n### 💬 对话与咨询\n- 回答各类知识问题\n- 学习辅导（数学、科学、历史等）\n- 头脑风暴、创意激发\n\n### 📊 办公效率\n- 总结长文档\n- 制作计划、清单\n- 邮件/PPT 内容撰写\n\n---\n\n**有什么具体需求，直接说就行！** 😊",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 322,
+        "total_tokens": 438,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    },
+    {
+      "idx": 2,
+      "started_at": "2026-05-12T15:41:38",
+      "elapsed_sec": 60.405,
+      "status_code": -1,
+      "ok": false,
+      "content": "",
+      "usage": {},
+      "error": "RemoteProtocolError: Server disconnected without sending a response."
+    },
+    {
+      "idx": 3,
+      "started_at": "2026-05-12T15:41:38",
+      "elapsed_sec": 27.546,
+      "status_code": 200,
+      "ok": true,
+      "content": "# 我是 Claude！\n\n**具体信息：**\n- 🤖 模型：**Claude Sonnet 4.6**（由 Anthropic 开发）\n- 📅 知识截止日期：**2025年8月**\n\n---\n\n## 我能干啥？\n\n### 📝 写作 & 文案\n- 写文章、报告、邮件、故事\n- 润色和修改文字\n\n### 💻 编程 & 技术\n- 写代码（Python、JS、Java 等各种语言）\n- Debug、代码审查、解释代码逻辑\n\n### 🧠 分析 & 思考\n- 数据分析、逻辑推理\n- 复杂问题拆解\n\n### 📚 学习 & 解答\n- 解释各种概念（数学、科学、历史等）\n- 翻译（中英日等多语言）\n\n### 💬 对话 & 创意\n- 头脑风暴、出主意\n- 角色扮演、创意写作\n\n---\n\n**简单说：** 文字相关的事我基本都能帮上忙！\n\n有什么具体需求，直接说吧 👇",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 337,
+        "total_tokens": 453,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    },
+    {
+      "idx": 4,
+      "started_at": "2026-05-12T15:41:38",
+      "elapsed_sec": 27.521,
+      "status_code": 200,
+      "ok": true,
+      "content": "我是 **Claude**，由 Anthropic 开发的 AI 助手。\n\n根据系统信息，我运行的模型是 **claude-sonnet-4-6**。\n\n---\n\n## 我能做什么？\n\n### 📝 写作与文字\n- 写文章、报告、邮件、故事、诗歌\n- 润色、翻译、校对文本\n- 总结长篇内容\n\n### 💻 编程与技术\n- 写代码（Python、JavaScript、Java 等主流语言）\n- 调试、解释代码逻辑\n- 技术方案设计\n\n### 🧠 分析与推理\n- 数据分析与解读\n- 逻辑推理、数学计算\n- 研究问题、整理信息\n\n### 💬 对话与咨询\n- 回答各类知识问题\n- 头脑风暴、创意发想\n- 学习辅导（语言、学科知识等）\n\n### 📊 办公效率\n- 制作表格、PPT 大纲\n- 拟定计划、整理会议记录\n- 帮你做决策分析\n\n---\n\n**你有什么想做的？告诉我，我来帮你！** 😊",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 353,
+        "total_tokens": 469,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    },
+    {
+      "idx": 5,
+      "started_at": "2026-05-12T15:41:38",
+      "elapsed_sec": 21.95,
+      "status_code": 200,
+      "ok": true,
+      "content": "# 我是 Claude Sonnet 4.6\n\n由 Anthropic 开发的 AI 助手。\n\n## 我能做什么？\n\n### 📝 写作与创作\n- 写文章、报告、故事、诗歌\n- 润色、翻译、总结文本\n\n### 💻 编程\n- 编写、调试、解释代码\n- 支持 Python、JavaScript、Java 等多种语言\n\n### 🧠 分析与推理\n- 数据分析、逻辑推理\n- 解答复杂问题、头脑风暴\n\n### 📚 学习辅助\n- 解释概念、回答问题\n- 辅导学习各类学科\n\n### 💬 对话交流\n- 日常聊天、情感支持\n- 中英文等多语言交流\n\n### 📊 办公助手\n- 起草邮件、制定计划\n- 整理信息、生成表格\n\n---\n\n**简单来说，有什么需要帮忙的，直接说就行！** 😊",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 299,
+        "total_tokens": 415,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    },
+    {
+      "idx": 6,
+      "started_at": "2026-05-12T15:41:38",
+      "elapsed_sec": 23.282,
+      "status_code": 200,
+      "ok": true,
+      "content": "# 我是 Claude Sonnet 4.6\n\n由 Anthropic 公司开发的 AI 助手。\n\n---\n\n## 我能做什么？\n\n### 📝 写作与创作\n- 写文章、报告、邮件、故事、诗歌\n- 内容润色、翻译、摘要\n\n### 💻 编程开发\n- 编写、调试、解释代码（Python、Java、JS 等几乎所有语言）\n- 技术方案设计\n\n### 🧠 分析与推理\n- 数据分析、逻辑推理\n- 复杂问题拆解\n\n### 📚 知识问答\n- 回答各领域问题（科学、历史、数学、法律、医学等）\n- 知识截止日期：**2025年8月**\n\n### 💬 对话与辅助\n- 头脑风暴、学习辅导\n- 角色扮演、情感陪伴\n\n---\n\n## 有什么限制？\n- ❌ 无法联网搜索实时信息\n- ❌ 无法生成图片/视频\n- ❌ 不会做违法或有害的事\n\n---\n\n**有什么想聊的，直接说吧！** 😊",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 357,
+        "total_tokens": 473,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    },
+    {
+      "idx": 7,
+      "started_at": "2026-05-12T15:42:00",
+      "elapsed_sec": 38.454,
+      "status_code": -1,
+      "ok": false,
+      "content": "",
+      "usage": {},
+      "error": "RemoteProtocolError: Server disconnected without sending a response."
+    },
+    {
+      "idx": 8,
+      "started_at": "2026-05-12T15:42:01",
+      "elapsed_sec": 37.121,
+      "status_code": -1,
+      "ok": false,
+      "content": "",
+      "usage": {},
+      "error": "RemoteProtocolError: Server disconnected without sending a response."
+    },
+    {
+      "idx": 9,
+      "started_at": "2026-05-12T15:42:05",
+      "elapsed_sec": 32.868,
+      "status_code": -1,
+      "ok": false,
+      "content": "",
+      "usage": {},
+      "error": "RemoteProtocolError: Server disconnected without sending a response."
+    },
+    {
+      "idx": 10,
+      "started_at": "2026-05-12T15:42:05",
+      "elapsed_sec": 18.65,
+      "status_code": 200,
+      "ok": true,
+      "content": "# 我是 Claude Sonnet 4.6\n\n由 Anthropic 公司开发的 AI 助手。\n\n---\n\n## 我能帮你做什么？\n\n### 📝 写作与文字\n- 写文章、报告、邮件、故事\n- 润色和修改文本\n- 翻译多种语言\n\n### 💻 编程与技术\n- 编写和调试代码（Python、JavaScript、Java 等）\n- 解释技术概念\n- 帮助解决技术问题\n\n### 🧠 分析与思考\n- 分析数据和文档\n- 逻辑推理和问题解决\n- 头脑风暴和创意生成\n\n### 📚 学习与解答\n- 解答各类知识问题\n- 辅导学习（数学、科学、历史等）\n- 总结和提炼信息\n\n### 💬 对话与咨询\n- 日常聊天交流\n- 提供建议和想法\n- 陪你思考复杂问题\n\n---\n\n有什么具体需要帮忙的吗？😊",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 313,
+        "total_tokens": 429,
+        "usage_semantic": "openai",
+        "usage_source": "anthropic",
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "input_tokens": 116,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "error": null
+    }
+  ]
+}
